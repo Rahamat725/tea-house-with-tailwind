@@ -16,18 +16,20 @@
   <!-- tailwind cdn -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style type="text/tailwindcss">
-    @theme {
+    /* @theme {
         --color-clifford: #da373d;
-      }
+        --fontFamily-Manrope: "Manrope", sans-serif;
+      } */
 
-      .manrope {
+      .font-manrope {
         font-family: "Manrope", sans-serif;
       }
     </style>
-</head>
+     <!-- <link rel="stylesheet" href="./style/style.css"> -->
+  </head>
 
-<body class="manrope">
-  <main class="max-w-screen-xl mx-auto px-12 lg:px-28 mt-10">
+<body class="font-manrope">
+  <main class=" max-w-screen-xl mx-auto px-12 lg:px-28 mt-10">
     <!-- Header Content -->
     <header class="flex justify-between items-center max-lg:flex-col-reverse">
       <!-- Text Content -->
@@ -133,7 +135,7 @@
       </div>
     </section>
     <!-- Great Tea Freshly Section -->
-    <section class="mb-12">
+    <section class="mb-24">
       <!-- grid grid-cols-1 lg:grid-cols-2 gap-4  -->
       <div class="flex gap-5 max-lg:flex-col-reverse">
         <!-- img section -->
@@ -256,6 +258,51 @@
         </div>
       </div>
     </section>
+
+    <!-- News and Event section -->
+     <section class="mb-24">
+      <!-- title and text -->
+       <div class="text-center md:px-16  space-y-5">
+        <h1 class=" text-3xl md:text-5xl font-extrabold">News & Events</h1>
+        <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+       </div>
+       <!-- cards -->
+        <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12">
+          <div class="shadow-md p-5 rounded-lg">
+            <img src="./images/news-1.png" alt="">
+             <div class="space-y-2">
+              <p class="text-sm ">Feb o5, 2027</p>
+            <h3 class="lg:w-3/4 text-xl font-extrabold">Collecting 8 points for discount</h3>
+            <p class="text-gray-700 text-sm">There are many variations of passages of Lorem Ipsum available.</p>
+            <button class="font-bold text-sm">Learn More</button>
+             </div>
+          </div>
+
+          <!--  -->
+          <div class="shadow-md p-5 rounded-lg">
+            <img src="./images/news-2.png" alt="">
+             <div class="space-y-2">
+              <p class="text-sm ">Feb o5, 2027</p>
+            <h3 class="w-3/4 text-xl font-extrabold">Collecting 8 points for discount</h3>
+            <p class="text-gray-700 text-sm">There are many variations of passages of Lorem Ipsum available.</p>
+            <button class="font-bold text-sm">Learn More</button>
+             </div>
+          </div>
+
+          <!--  -->
+
+          <div class="shadow-md p-5 rounded-lg">
+            <img src="./images/news-3.png" alt="">
+             <div class="space-y-2">
+              <p class="text-sm ">Feb o5, 2027</p>
+            <h3 class="w-3/4 text-xl font-extrabold">Collecting 8 points for discount</h3>
+            <p class="text-gray-700 text-sm">There are many variations of passages of Lorem Ipsum available.</p>
+            <button class="font-bold text-sm">Learn More</button>
+             </div>
+          </div>
+
+        </div>
+     </section>
   </main>
 
   <!-- Footer section -->
